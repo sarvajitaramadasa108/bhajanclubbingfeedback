@@ -76,7 +76,7 @@ body::before{
 
 .logo{
     display:block;
-    width:90px;
+    width:200px;
     margin:auto;
     margin-bottom:20px;
 }
@@ -84,7 +84,7 @@ body::before{
 .event-tag{
     text-align:center;
     color:#f59e0b;
-    font-size:14px;
+    font-size:20px;
     font-weight:600;
     letter-spacing:3px;
     margin-bottom:15px;
@@ -386,7 +386,7 @@ button:disabled{
     }
 
     .event-tag{
-        font-size:12px;
+        font-size:20px;
         letter-spacing:2px;
     }
 
