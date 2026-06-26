@@ -68,74 +68,92 @@
 
                 <div class="form-group">
 
-                    <label>
-                        Rate your overall experience
-                    </label>
+    <label>
+        How would you rate your experience?
+    </label>
 
-                    <div class="stars">
+    <div class="rating-list">
 
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
+        <div class="rating-row">
+            <span>🎤 Vocals</span>
+            <div class="stars rating-stars" data-name="vocals">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="vocals" id="vocals" required>
+        </div>
 
-                    </div>
+        <div class="rating-row">
+            <span>🎸 Instrumental Fusion</span>
+            <div class="stars rating-stars" data-name="instrumental">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="instrumental" id="instrumental" required>
+        </div>
 
-                    <input
-                        type="hidden"
-                        id="rating"
-                        name="rating"
-                        required>
+        <div class="rating-row">
+            <span>💡 Lighting Effects</span>
+            <div class="stars rating-stars" data-name="lighting">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="lighting" id="lighting" required>
+        </div>
 
-                </div>
+        <div class="rating-row">
+            <span>✨ Ambience</span>
+            <div class="stars rating-stars" data-name="ambience">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="ambience" id="ambience" required>
+        </div>
+
+        <div class="rating-row">
+            <span>🪔 Devotional Vibe</span>
+            <div class="stars rating-stars" data-name="devotional">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="devotional" id="devotional" required>
+        </div>
+
+        <div class="rating-row overall-row">
+            <span>🌟 Overall Experience</span>
+            <div class="stars rating-stars" data-name="overall">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="overall" id="overall" required>
+        </div>
+
+    </div>
+
+</div>
 
                 <div class="form-group">
 
                     <label>
-                        What did you enjoy the most?
-                    </label>
-
-                    <div class="options-grid">
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Vocals">
-                            <span>🎤 Vocals</span>
-                        </label>
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Instrumental Fusion">
-                            <span>🎸 Instrumental Fusion</span>
-                        </label>
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Lighting Effects">
-                            <span>💡 Lighting Effects</span>
-                        </label>
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Ambience">
-                            <span>✨ Ambience</span>
-                        </label>
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Devotional Vibe">
-                            <span>🪔 Devotional Vibe</span>
-                        </label>
-
-                        <label class="option-card">
-                            <input type="checkbox" name="enjoyedMost" value="Overall Experience">
-                            <span>🎶 Overall Experience</span>
-                        </label>
-
-                    </div>
-
-                </div>
-
-                <div class="form-group">
-
-                    <label>
-                        Would you like to be a part of our Bhajan Clubbing Community?
+                        Would you like to be a part of our Hare Krishna Vaikuntham Community?
                     </label>
 
                     <div class="radio-group">
@@ -216,7 +234,7 @@
                 href="#"
                 target="_blank">
 
-                Join WhatsApp Community
+                Join Our WhatsApp Channel
 
             </a>
 
