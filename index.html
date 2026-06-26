@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhajan Clubbing Feedback | Hare Krishna Movement Vizag</title>
+
+    <meta name="theme-color" content="#071A35">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+    <div class="background-overlay"></div>
+
+    <main class="container">
+
+        <div class="feedback-card">
+
+            <img src="assets/logo.png" class="logo" alt="Hare Krishna Movement">
+
+            <p class="event-tag">
+                VIZAG'S BIGGEST BHAJAN CLUBBING
+            </p>
+
+            <h1>
+                Thank You!
+            </h1>
+
+            <p class="subtitle">
+                Thank you for making Bhajan Clubbing a grand success.
+                Your valuable feedback will help us create an even more memorable experience in the future.
+            </p>
+
+<form
+    id="feedbackForm"
+    action="https://script.google.com/macros/s/AKfycbxyltoJQGzLJeaPwFs7WHJIqC3mn7elGwMj4UFrDr0TnHCIHkspXuBQGZWtZGF7Zctd/exec"
+    method="POST"
+    target="hidden_iframe">
+
+                <div class="form-group">
+
+                    <label>
+                        Registered Mobile Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="mobile"
+                        name="mobile"
+                        maxlength="10"
+                        placeholder="Enter your registered mobile number"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+                        Rate your overall experience
+                    </label>
+
+                    <div class="stars">
+
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+
+                    </div>
+
+                    <input
+                        type="hidden"
+                        id="rating"
+                        name="rating"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+                        What did you enjoy the most?
+                    </label>
+
+                    <div class="options-grid">
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Vocals">
+                            <span>🎤 Vocals</span>
+                        </label>
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Instrumental Fusion">
+                            <span>🎸 Instrumental Fusion</span>
+                        </label>
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Lighting Effects">
+                            <span>💡 Lighting Effects</span>
+                        </label>
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Ambience">
+                            <span>✨ Ambience</span>
+                        </label>
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Devotional Vibe">
+                            <span>🪔 Devotional Vibe</span>
+                        </label>
+
+                        <label class="option-card">
+                            <input type="checkbox" name="enjoyedMost" value="Overall Experience">
+                            <span>🎶 Overall Experience</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+                        Would you like to be a part of our Bhajan Clubbing Community?
+                    </label>
+
+                    <div class="radio-group">
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="community"
+                                value="Yes"
+                                required>
+
+                            Yes, I'd love to!
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="community"
+                                value="No">
+
+                            No, thank you.
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+                        Suggestions for scope of improvement
+                    </label>
+
+                    <textarea
+                        id="suggestions"
+                        name="suggestions"
+                        rows="5"
+                        placeholder="Share your valuable suggestions..."></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    id="submitBtn">
+
+                    ✨ Submit Feedback
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <div id="successModal" class="success-modal">
+
+        <div class="success-content">
+
+            <div class="success-icon">
+                🙏
+            </div>
+
+            <h2>
+                Thank You!
+            </h2>
+
+            <p>
+                Your feedback has been submitted successfully.
+            </p>
+
+            <p>
+                We'd love to stay connected with you and invite you to more uplifting events.
+            </p>
+
+            <a
+                id="whatsappBtn"
+                href="#"
+                target="_blank">
+
+                Join WhatsApp Community
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
